@@ -30,6 +30,11 @@ index css
     z-index: 100001 !important;
   }
 
+.internshipbuttons
+{
+  text-align: center;
+}
+
 /*======
 base css
 =======*/
@@ -667,7 +672,7 @@ portfolio css
 .project-hover {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 22%;
   height: 100%;
   width: 100%;
   z-index: 2;
