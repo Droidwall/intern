@@ -13,7 +13,7 @@ index css
 4.navigation css
 5.hero-area css
 6.about css
-7.service css
+7.internship css
 8.portfolio css
 9.testimonial css
 10.blog css
@@ -21,7 +21,14 @@ index css
 12.footer css
 13.scroll to top css
 =======*/
+/*===== Testing codes ====*/
+.modal-backdrop {
+    z-index: 100000 !important;
+  }
 
+  .modal {
+    z-index: 100001 !important;
+  }
 
 /*======
 base css
@@ -67,7 +74,7 @@ input[type="tel"], input[type="url"], input[type="email"], input[type="text"], i
 }
 
 input[type="submit"], button[type="submit"] {
-  
+
 }
 textarea {
   max-height: 170px;
@@ -543,10 +550,10 @@ about css
 /*=========
 service css
 ==========*/
-#services {
+#internship {
   background: #f6f6f6;
 }
-#services .row .col-lg-4.col-md-6:nth-child(4) .single-service-item, #services .row .col-lg-4.col-md-6:nth-child(5) .single-service-item, #services .row .col-lg-4.col-md-6:nth-child(6) .single-service-item {
+#internship .row .col-lg-4.col-md-6:nth-child(4) .single-service-item, #internship .row .col-lg-4.col-md-6:nth-child(5) .single-service-item, #internship .row .col-lg-4.col-md-6:nth-child(6) .single-service-item {
     margin-bottom: 0;
 }
 .section-title img {
@@ -614,7 +621,7 @@ portfolio css
 .project-filter span {
   text-transform: capitalize;
   font-size: 16px;
-  margin: 0px 15px; 
+  margin: 0px 15px;
   cursor: pointer;
   font-weight: 500;
   position: relative;
@@ -896,8 +903,8 @@ contact
 .contact-form input:focus:required:invalid, .contact-form textarea:focus:required:invalid {
   border: 1px solid #3c40c6;
 }
-.contact-form input:required:valid, .contact-form textarea:required:valid { 
-  border: 1px solid transparent; 
+.contact-form input:required:valid, .contact-form textarea:required:valid {
+  border: 1px solid transparent;
 }
 /*========
 footer css
