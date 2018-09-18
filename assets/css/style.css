@@ -496,8 +496,15 @@ hero-area css
 about css
 ========*/
 #about{
-  background: #fff;
+  background: #FCFFFE;
 }
+#internship {
+
+  background: #E6E8E7;
+}
+
+
+
 .left-content h3 {
   text-transform: capitalize;
   font-weight: 900;
@@ -594,7 +601,7 @@ service css
 portfolio css
 ===========*/
 #portfolio {
-  background: #fff;
+  background: #FCFFFE;
 }
 #portfolio .project-lists .col-lg-4.col-md-6:nth-child(4) .single-work, #portfolio .project-lists .col-lg-4.col-md-6:nth-child(5) .single-work, #portfolio .project-lists .col-lg-4.col-md-6:nth-child(6) .single-work {
     margin-bottom: 0;
@@ -838,7 +845,7 @@ blog
 contact
 ======*/
 #contact {
-  background: #f6f6f6;
+  background: #E6E8E7;
 }
 .contact-info {
   color: #fff;
