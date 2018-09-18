@@ -3,8 +3,7 @@ Template Name: Haribo - Onepage Portfolio Template
 Author Name: Mohammad Masum
 Author URL:https://themeforest.net/user/WebFirefly
 ==========================================================*/
-
-/*=======
+ /*=======
 index css
 =========
 1.base css
@@ -13,7 +12,7 @@ index css
 4.navigation css
 5.hero-area css
 6.about css
-7.internship css
+7.service css
 8.portfolio css
 9.testimonial css
 10.blog css
@@ -21,21 +20,7 @@ index css
 12.footer css
 13.scroll to top css
 =======*/
-/*===== Testing codes ====*/
-.modal-backdrop {
-    z-index: 100000 !important;
-  }
-
-  .modal {
-    z-index: 100001 !important;
-  }
-
-.internshipbuttons
-{
-  text-align: center;
-}
-
-/*======
+ /*======
 base css
 =======*/
 *{
@@ -53,8 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-
-    font-weight: 400;
+     font-weight: 400;
     color: #333;
 }
 body {
@@ -68,8 +52,7 @@ html, body{
   height:100%;
 }
 a:hover { text-decoration: none }
-
-input[type="tel"], input[type="url"], input[type="email"], input[type="text"], input[type="password"], textarea {
+ input[type="tel"], input[type="url"], input[type="email"], input[type="text"], input[type="password"], textarea {
   border: none;
   background: #f1f1f1;
   padding: 10px;
@@ -77,8 +60,7 @@ input[type="tel"], input[type="url"], input[type="email"], input[type="text"], i
   margin-bottom: 10px;
   border-radius: 5px;
 }
-
-input[type="submit"], button[type="submit"] {
+ input[type="submit"], button[type="submit"] {
 
 }
 textarea {
@@ -119,8 +101,7 @@ textarea {
 .mb-30{
   margin-bottom:30px;
 }
-
-.preloader {
+ .preloader {
   position: fixed;
   left: 0;
   top: 0;
@@ -555,10 +536,10 @@ about css
 /*=========
 service css
 ==========*/
-#internship {
+#services {
   background: #f6f6f6;
 }
-#internship .row .col-lg-4.col-md-6:nth-child(4) .single-service-item, #internship .row .col-lg-4.col-md-6:nth-child(5) .single-service-item, #internship .row .col-lg-4.col-md-6:nth-child(6) .single-service-item {
+#services .row .col-lg-4.col-md-6:nth-child(4) .single-service-item, #services .row .col-lg-4.col-md-6:nth-child(5) .single-service-item, #services .row .col-lg-4.col-md-6:nth-child(6) .single-service-item {
     margin-bottom: 0;
 }
 .section-title img {
@@ -609,9 +590,7 @@ service css
 .single-service-item:hover .service-title h4:after {
   width: 100%;
 }
-
-
-/*===========
+ /*===========
 portfolio css
 ===========*/
 #portfolio {
@@ -669,16 +648,10 @@ portfolio css
   width: 100%;
   border-radius: 5px;
 }
-
-/* Addded a custom project-hover */
-.project-hover-intern {
-  top:22% !important;
-}
-
 .project-hover {
   position: absolute;
   left: 0;
-  top: 0%;
+  top: 0;
   height: 100%;
   width: 100%;
   z-index: 2;
@@ -731,8 +704,7 @@ portfolio css
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   visibility: visible;
 }
-
-/*=============
+ /*=============
 testimonial css
 =============*/
 #clients {
@@ -800,9 +772,7 @@ testimonial css
 .owl-carousel.testimonial-carousel .owl-nav button:focus{
   outline:none;
 }
-
-
-/*====
+ /*====
 blog
 ====*/
 #blog {
@@ -956,8 +926,7 @@ footer css
   color: #3c40c6;
   background: #fff;
 }
-
-/*===============
+ /*===============
 scroll to top css
 ===============*/
 .scroll-up {
